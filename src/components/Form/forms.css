@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #39548E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*######################### MAIN ########################*/
+.main{
+    margin-top: 5vh;
+    background-color: white;
+    width: 85vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px 0 rgba(0,0,0,0.2); ;
+}
+
+.main .top h2{
+    color: #39548E;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main .top h1{
+    color: #39548E;
+    font-size: 35px;
+    text-align: center;
+    padding: 4% 0 0 0;
+}
+
+.main .top img {
+    max-width: 60vw;
+    padding: 0 0 0 13%;
+}
+
+/*######################### FORM ########################*/
+.form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-content form select{
+    width: 60vw;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    border: 0px solid white;
+    border-bottom: 1px solid #39548E;
+}
+
+/*################## ELEMENTS(GERAL) #############*/
+.elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.elements img{
+    max-width: 10vw;
+    max-height: 5vh;
+}
+
+.elements span{
+    margin-left: 2vh;
+}
+
+/*################## FIRST-ELEMENT #############*/
+ .first-element{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/*################## SECOND-ELEMENT #############*/
+.second-element{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/*################## THIRD-ELEMENT #############*/
+.third-element{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/*################## FOURTH-ELEMENT #############*/
+.fourth-element{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+.fourth-element span {
+    text-justify: center;
+}
+
+/*################## FIFTH-ELEMENT #############*/
+.fifth-element{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    position: static;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+
+/*################### BUTTON ######################*/
+.main button{
+    background-color: white ;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px 0 rgba(0,0,0,0.2);
+    color: #39548E;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    float: right;
+}
+
+
+
+
